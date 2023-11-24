@@ -1,0 +1,17 @@
+let calculadora = (num1,num2,cb0operacion) {
+let resultado =cb0operacion(num1,num2);
+return resultado 
+};
+
+let sumar =(num1,num2) = num1 + num2;
+let restar =(num1,num2) = num1 - num2;
+let multiplicar =(num1,num2) = num1 * num2;
+let dividir =(num1,num2) = num1 / num2;
+
+let resultadoFinal = calculadora(10,20)
+console.log(resultadoFinal)
+# //  let calculadora = (10,20,sumar) = {
+# //  let resultado = sumar 
+# //  let resultado;
+# // }; 
+

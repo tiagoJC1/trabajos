@@ -1,0 +1,39 @@
+/*i. ventas mensual de lacteos: “30 45 25 34 18 23 16 50 72 70”
+ii.ventas mensual de almacen: “50 45 71 34 23 45 65 75 63 43 74 70”
+iii.ventas mensual de articulos de limpieza: “30 11 87 25 74 16” */
+
+let ventasLacteos ="30 45 25 34 18 23 16 50 72 70".split(" ")
+let ventasAlmacen ="50 45 71 34 23 45 65 75 63 43 74 70".split(" ")
+let ventasLimpieza ="30 11 87 25 74 16".split(" ")
+
+// console.log(ventasLacteos)
+
+let obtenerPromedioVentas = (vlacteos,vAlmacen,vLimpieza,categoria) => {
+
+    if(categoria > 3 || categoria < 1 ) {
+
+    let mensajeError = `el valor de la categoria ª selecionar son:
+     1 = LACTEOS
+     2 = ALMACEN
+     3 = LIMPIEZA` ;
+     return mensajeError
+}
+
+    let categorias = [null,vlacteos,vAlmacen,vLimpieza]
+    let categoriaSeleccionada = categorias[categoria]
+    let sumaValores = 0 ;
+    for (let i = 0; 1 < categoriaSeleccionada.length;i++){
+
+        let valorVenta = +categoriaSeleccionada[i]
+        sumaValores += valorVenta
+    }
+    let cantidadVenta = categoriaSeleccionada.length
+    return sumaValores / cantidadVenta
+
+   // console.log(sumaValores)
+}
+
+let promedio = obtenerPromedioVentas(ventasLacteos,ventasAlmacen,ventasLimpieza,3) ;
+
+console.log(promedio)
+

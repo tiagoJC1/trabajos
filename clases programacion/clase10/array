@@ -1,0 +1,9 @@
+let alumnos = ["tiago", "cuello","martina","paloma"];
+
+let cantidadAlumnos = alumnos.Length;
+
+let segundoAlumno = alumnos[1];
+ 
+console.log(alumnos)
+console.log(cantidadAlumnos)
+console.log(segundoAlumno)

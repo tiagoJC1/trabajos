@@ -1,0 +1,12 @@
+let arrNum = [1,2,3,4,5,7,8,10] ;
+
+let totalAcumulado = arrNum.reduce((acum,num) => {
+    return acum + num 
+}
+)
+
+console.log(totalAcumulado)
+
+
+
+

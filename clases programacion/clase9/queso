@@ -1,0 +1,16 @@
+// funciones.js
+
+// funcion declarada
+funcion saludar(nombre,apellido){
+    return nombre + " " + apellido 
+}
+
+const fullname = nombrecompleto("pedro","ramirez")
+console.log(fullname) 
+
+// FUNCION EXPRESADA
+
+constsumar = function (n1 = 0 .n2 = 0)
+{console.log (n1 + n2)
+}
+console.log(sumar(2.6)); // 8  

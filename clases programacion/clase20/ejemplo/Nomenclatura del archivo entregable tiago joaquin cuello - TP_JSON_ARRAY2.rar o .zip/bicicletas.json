@@ -1,0 +1,74 @@
+[ {
+    "id" : 1,
+    "marca" : "Fierce",
+    "modelo" : "Sunshine",
+    "rodado" : 26,
+    "anio" : 2019,
+    "color": "roja",
+    "peso" : 16,
+    "tipo" : "Montañera",
+    "precio" : 120000,
+    "vendida" : true
+    } ,
+
+    {
+    "id" : 2,
+    "marca" : "Olmo",
+    "modelo" : "Regal",
+    "rodado" : 16,
+    "anio" : 2021,
+    "color": "roja",
+    "peso" : 15,
+    "tipo" : "Paseo",
+    "precio" : 110000,
+    "vendida" : false
+    },
+    {
+    "id" : 3,
+    "marca" : "SLP",
+    "modelo" : "Regal",
+    "rodado" : 29,
+    "anio" : 2022,
+    "color": "roja",
+    "peso" : 15,
+    "tipo" : "Montañera",
+    "precio" : 135000,
+    "vendida" : true
+    },
+    {
+    "id" : 4,
+    "marca" : "Olmo",
+    "modelo" : "FM18SI29AM211",
+    "rodado" : 29,
+    "anio" : 2022,
+    "color": "roja",
+    "peso" : 16,
+    "tipo" : "Montañera",
+    "precio" : 125000,
+    "vendida" : true
+    }  ,
+    {
+    "id" : 5,
+    "marca" : "Fixie",
+    "modelo" : "Regal",
+    "rodado" : 26,
+    "anio" : 2020,
+    "color": "Naranja",
+    "peso" : 17,
+    "tipo" : "Retro",
+    "precio" : 150000,
+    "vendida" : false
+    } ,
+    {
+    "id" : 6,
+    "marca" : "Battle",
+    "modelo" : "Ruta",
+    "rodado" : 26,
+    "anio" : 2019,
+    "color": "negro",
+    "peso" : 13,
+    "tipo" : "Retro",
+    "precio" : 100000,
+    "vendida" : true
+    }     
+]    

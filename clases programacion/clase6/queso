@@ -1,0 +1,63 @@
+// STRING
+let diaActual = "miercoles" ; 
+let saludos = "Hola mundo" ;
+let mensaje = "Hoy es martes" ;
+
+// String interpolation 
+
+let mensajeInterpolation = 
+
+console.log ;
+
+//number
+const diaMes = 10 ; // entero 
+const precio = 100.50 // decimal  
+
+// BOLEANOS
+const hoyEsMartes = true ;
+const noMegustaEstudiar = false ;
+
+// ARRAY - VECTOR - LISTA 
+const datosPersonales = [
+
+23,
+
+true,
+
+
+
+] ;
+
+const nombre = "Emanuel"
+const edad = 31
+const hobbie = "tocar guitarra"
+
+const usuario = {
+ nombre:    
+}
+
+
+//OBJETO
+const usuario = {
+    }
+
+// UNDEFINED
+let valorDolarMesQueViene =  underfined;
+
+// NULL
+let valorNulo = null ;
+
+let aniosAdrina;
+console.log(anios)
+
+
+
+
+
+
+
+
+
+
+
+

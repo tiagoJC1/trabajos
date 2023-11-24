@@ -1,0 +1,12 @@
+// funciones ejercicios
+
+const promedio = function(nota1,nota2,nota3){
+
+  if(true) {
+   return
+}   
+
+return (nota1 + nota2 + nota3) / 3; 
+}
+
+console.log(promedio("2",2,4))

@@ -1,0 +1,61 @@
+//  Crear las funciones correspondientes para calcular el perímetro de un triangulo e indique a cual tipo de triangulo pertenece (Equilátero, Isósceles, Escaleno), realizar las validaciones correspondientes.
+// Deben crearse las siguientes funciones y de acuerdo a lo que representa cada uno debe ser colocado en los lugares correctos dentro de una función padre llamada "triangulos".
+// 1 - Función calcularPerimetro
+// 2 - Funcion tipoTriangulo
+// 3 - Función sonValoresValidos
+// 4 - Resultado/formato final esperado por la función triangulos: "El triangulo es Isosceles y su perímetro es 10"
+
+// Herramientas a utilizar: if ternario, funciones flechas y el método "isNaN()" (INVESTIGARLO!)
+
+let calcularPerimetro = (lado1,lado2,lado3) => {
+    let perimetro = lado1 + lado2 + lado3;
+    return perimetro
+}
+
+let tipoTriangulo = (l1,l2,l3) => {
+    let tipo =
+     l1 === l2 && l2 === l3 && l3 === l1 ? 
+    "Equilátero" : 
+    l1 === l2 || l3 === l1 || l2 === l3 ?
+    "Isósceles" :
+    "Escaleno" ;
+   
+    return tipo;
+} ;
+
+/*let perimetroTriangulo = calcularPerimetro(2,3,5) // 10
+//console.log(perimetroTriangulo)
+
+let nombreTriangulo = tipoTriangulo(2,3,5) // escaleno
+console.log(nombreTriangulo)  */
+
+let sonValoresValidos = (l1,l2,l3) => {
+    if(isNaN(l1)){
+        return false;
+    }
+    return true;
+}
+;
+
+sonValoresValidos("5",2,3)
+
+
+isNaN() // ¿si no es un numero?  -> boleano
+!isNaN() // ¿si es un numero? -> boleano 
+
+
+
+
+
+
+
+
+let triangulo = (lado1,lado2,lado3) => {
+
+    let esValido = sonValoresValidos(lado1,lado2.lado3)
+    
+
+    let tipo = tipoTriangulo(lado1,lado2.lado3)
+    let perimetro = calcularPerimetro(lado1,lado2.lado3)
+}
+

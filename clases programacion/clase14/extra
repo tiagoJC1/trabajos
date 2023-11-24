@@ -1,0 +1,12 @@
+let arrayTextos = ["toma 1","toma 2","pon 1","toma 2","todos ponen","toma todo",]
+
+/*
+let juegoDeTrompito = () => {
+
+} */
+
+console.log(Math.floor())
+
+
+
+

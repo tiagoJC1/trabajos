@@ -1,0 +1,51 @@
+let productos = [
+    ["leche","lacteos",400],
+    ["fideos","almacen", 200],
+    ["galletitas","almacen", 300],
+    ["arroz","almacen", 700],
+    ["manteca","lacteos", 450],
+    ["detergente","limpieza", 350],
+    ["shampoo","limpieza", 650],
+] ;
+
+let listaCompra = ['LECHE', 'FIDEOS', 'MANTECA'] 
+
+let obtenerMontoTotal = (productos,lista) => {
+    let total = 0 ;
+    for (let i = 0 ; i < productos.length; i++ ) {
+        let producto = productos[i] ;
+        let nombreProd = producto[0] ;
+        let precioProd = producto[2] ;
+        // leche --> toUperCase --> LECHE
+        if(lista.includes(nombreProd.toUperCase())){
+            total += precioProd ;// total = total + precio
+        }
+    }
+    return total;
+}
+
+obtenerMontoTotal(productos,listaCompra) 
+console.log(montoTotal)
+
+let ticket = (nombre,apellido,productosParaVender,listadoDeCompra,cbMontoTotal) => { 
+    let montoTotal = cbMontoTotal (productosParaVender,listadoDeCompra)
+    let ListadoDeProductos  = ''
+
+    for (let i = 0 ;i < listaDeCompra.length;i++) {
+        let producto = listadoDeCompra[i]
+        ListadoDeProductos += `${i + 1} - ${producto}\n` 
+    }
+    
+    console.log(ListadoDeProductos) ;
+    
+    let mensaje = `estimado, ${nombre} ${apellido} en funcion de los problemas selecionados:\n\n ${ListadoDeProductos}\nel monto a pagares: $ ${montoTotal}`
+    return mensaje
+
+} ;
+
+let mensajeTicket = ticket("Emanuel","Arroyo",productos,listadoDeCompra,obtenerMontoTotal)
+
+console.log(mensajeTicket)
+
+
+
