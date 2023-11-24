@@ -1,8 +1,0 @@
-let contraseña = "queso" ;
-let contraseñaValida = "12345" ;
-
-do {
- console.log("ingrese contraseña de usuario")
-}
-while(contraseña === contraseñaValida )
-// si las contraseñas no son iguales 
