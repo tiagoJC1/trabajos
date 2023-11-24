@@ -1,0 +1,52 @@
+let nombre = "Pedro" ;
+console.log(nombre) ;             
+console.log(typeof(nombre)) ;
+let edad = 20 ; 
+console.log(edad) ;             
+console.log(typeof(edad)) ;
+let númeroDeTeléfono = 12345 ;
+console.log(númeroDeTeléfono) ;              
+console.log(typeof(númeroDeTeléfono)) ;
+let socio = true ;
+console.log(socio) ;             
+console.log(typeof(socio)) ;
+let fechaDelPartido = "20 de ocutubre" ;
+console.log(fechaDelPartido) ;              
+console.log(typeof(fechaDelPartido)) ;
+let horaDelPartido = "a las 20hs" ; 
+console.log(horaDelPartido) ;              
+console.log(typeof(horaDelPartido)) ;
+let númeroDeSilla = "silla 247"  
+console.log(númeroDeSilla) ;              
+console.log(typeof(númeroDeSilla)) ;
+let precioDelBoleto = 25000;    
+console.log(precioDelBoleto) ;              
+console.log(typeof(precioDelBoleto)) ;      
+       
+// EXTENCION JS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
