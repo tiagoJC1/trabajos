@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<%- include("./partials/head") %>
+
+  <body>
+    <%- include("./partials/navigation") %>
+
+
+      <!-- Header -->
+      <header class="ps-display-container ps-content ps-wide" id="home">
+        <img class="ps-image" src="/images/header.jpg" alt="Pimienta & Sal" width="1600" height="800" />
+        <div class="ps-display-bottomleft ps-padding-large ps-opacity">
+          <h1 class="ps-xxlarge">Sabores que enamoran</h1>
+        </div>
+      </header>
+
+      <!-- Page content -->
+      <div class="ps-content">
+
+        <!-- Menu Section -->
+        <%- include("./partials/menuSelection") %>
+
+          <!-- Footer -->
+          <%- include("./partials/footer") %>
+      </div>
+  </body>
+
+</html>
